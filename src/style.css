@@ -1,0 +1,65 @@
+body {
+  font-family: sans-serif;
+}
+
+#app {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+li {
+  font-size: 2rem;
+  text-align: left;
+  list-style: none;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+}
+
+input {
+  width: 30px;
+  height: 30px;
+}
+
+.list__wrapper {
+  padding: 0;
+  margin-top: 0;
+}
+
+.list__text {
+  padding: 10px 10px 10px 0;
+}
+
+.list__check {
+  padding: 10px;
+  border-right: 2px solid black;
+  margin-right: 10px;
+}
+
+.list__searchbar-box {
+  border: 2px solid black;
+  border-bottom: 0;
+  padding: 20px;
+  text-align: left;
+}
+
+.list__searchbar {
+  width: 250px;
+  padding: 20px;
+  font-size: 1.2rem;
+}
+
+.list__date-box {
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+.list__item--done {
+  color: red;
+  text-decoration: line-through;
+}
